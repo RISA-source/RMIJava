@@ -1,10 +1,10 @@
 # Java RMI Examples
 
-A collection of Java Remote Method Invocation (RMI) applications demonstrating client-server communication.
+A collection of Java Remote Method Invocation (RMI) applications demonstrating client-server communication and distributed computing concepts.
 
 ## Contents
 
-This workshop includes four RMI services:
+This repository includes four RMI services:
 
 1. **Calculator Service** - Performs basic arithmetic operations
 2. **DateTime Service** - Retrieves current date and time from server
@@ -22,17 +22,18 @@ This workshop includes four RMI services:
 
 **Compile:**
 ```bash
-javac workshop10/*.java
+cd calculator
+javac *.java
 ```
 
 **Run Server:**
 ```bash
-java workshop10.CalcServer
+java CalcServer
 ```
 
 **Run Client (in new terminal):**
 ```bash
-java workshop10.CalcClient
+java CalcClient
 ```
 
 **Usage:**
@@ -43,14 +44,20 @@ java workshop10.CalcClient
 
 ### 2. DateTime Service
 
+**Compile:**
+```bash
+cd datetime
+javac *.java
+```
+
 **Run Server:**
 ```bash
-java workshop10.DateTimeServer
+java DateTimeServer
 ```
 
 **Run Client (in new terminal):**
 ```bash
-java workshop10.DateTimeClient
+java DateTimeClient
 ```
 
 **Output:**
@@ -60,14 +67,20 @@ java workshop10.DateTimeClient
 
 ### 3. Student Service
 
+**Compile:**
+```bash
+cd student
+javac *.java
+```
+
 **Run Server:**
 ```bash
-java workshop10.StudentServer
+java StudentServer
 ```
 
 **Run Client (in new terminal):**
 ```bash
-java workshop10.StudentClient
+java StudentClient
 ```
 
 **Usage:**
@@ -83,14 +96,20 @@ java workshop10.StudentClient
 
 ### 4. Multi-Service
 
+**Compile:**
+```bash
+cd multiservice
+javac *.java
+```
+
 **Run Server:**
 ```bash
-java workshop10.MultiServer
+java MultiServer
 ```
 
 **Run Client (in new terminal):**
 ```bash
-java workshop10.MultiClient
+java MultiClient
 ```
 
 **Features:**
@@ -132,3 +151,7 @@ java.rmi.ConnectException: Connection refused
 java.lang.ClassNotFoundException
 ```
 - Ensure all files are compiled and in the correct package structure
+
+## Author
+
+College Assignment - Java RMI

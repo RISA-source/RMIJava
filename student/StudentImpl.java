@@ -1,4 +1,4 @@
-package workshop10;
+package student;
 
 import java.rmi.server.UnicastRemoteObject;
 import java.rmi.RemoteException;

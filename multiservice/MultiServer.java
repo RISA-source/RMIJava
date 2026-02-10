@@ -1,4 +1,4 @@
-package workshop10;
+package multiservice;
 
 import java.rmi.Naming;
 import java.rmi.registry.LocateRegistry;

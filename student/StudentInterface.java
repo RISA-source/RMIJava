@@ -1,4 +1,4 @@
-package workshop10;
+package student;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;

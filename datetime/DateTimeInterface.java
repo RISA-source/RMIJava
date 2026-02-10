@@ -1,4 +1,4 @@
-package workshop10;
+package datetime;
 
 import java.rmi.Remote;
 import java.rmi.RemoteException;

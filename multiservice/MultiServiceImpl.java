@@ -1,4 +1,4 @@
-package workshop10;
+package multiservice;
 
 import java.rmi.server.UnicastRemoteObject;
 import java.rmi.RemoteException;
